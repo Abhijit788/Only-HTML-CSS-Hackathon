@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRIKE - Premium Online Courses Platform</title>
+    <meta name="description" content="Transform your career with STRIKE's cutting-edge online courses from industry experts">
+    <meta name="keywords" content="online courses, education, programming, design, business">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <h1 class="logo">STRIKE</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="#courses" class="nav-link">Courses</a>
+                <a href="#featured" class="nav-link">Featured</a>
+                <a href="#dashboard" class="nav-link">Dashboard</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-icon search-btn" aria-label="Search">
+                    <span class="icon-search">🔍</span>
+                </button>
+                <button class="nav-icon user-btn" aria-label="User Account">
+                    <span class="icon-user">👤</span>
+                </button>
+                <button class="nav-icon cart-btn" aria-label="Shopping Cart">
+                    <span class="icon-cart">🛒</span>
+                    <span class="cart-badge">3</span>
+                </button>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Master Skills That <span class="accent-text">Strike</span> Success
+                    </h1>
+                    <p class="hero-subtitle">
+                        Unlock your potential with world-class online courses from industry experts. 
+                        Join thousands of learners transforming their careers.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#courses" class="btn btn-primary">
+                            Explore Courses
+                        </a>
+                        <button class="btn btn-secondary">
+                            Watch Demo
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Courses</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-elements">
+                        <div class="floating-shape shape-1"></div>
+                        <div class="floating-shape shape-2"></div>
+                        <div class="floating-shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Discovery Section -->
+        <section class="courses" id="courses">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Discover Courses</h2>
+                    <p class="section-subtitle">Find the perfect course to advance your career</p>
+                </div>
+                
+                <!-- Filter Panel -->
+                <div class="filter-panel">
+                    <button class="filter-toggle">
+                        <span class="filter-icon">⚙️</span>
+                        Filters
+                    </button>
+                    <div class="filter-content">
+                        <div class="filter-group">
+                            <h4 class="filter-title">Category</h4>
+                            <div class="filter-options">
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="category" value="programming">
+                                    <span>Programming</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="category" value="design">
+                                    <span>Design</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="category" value="business">
+                                    <span>Business</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="category" value="marketing">
+                                    <span>Marketing</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="filter-group">
+                            <h4 class="filter-title">Level</h4>
+                            <div class="filter-options">
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="level" value="beginner">
+                                    <span>Beginner</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="level" value="intermediate">
+                                    <span>Intermediate</span>
+                                </label>
+                                <label class="filter-chip">
+                                    <input type="checkbox" name="level" value="advanced">
+                                    <span>Advanced</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Course Grid -->
+                <div class="course-grid">
+                    <article class="course-card">
+                        <div class="course-image">
+                            <div class="course-badge bestseller">Bestseller</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Complete Web Development Bootcamp</h3>
+                            <p class="course-instructor">By John Smith</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <span class="rating-count">(2,847)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$89.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="course-card">
+                        <div class="course-image">
+                            <div class="course-badge new">New</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Advanced React & Node.js</h3>
+                            <p class="course-instructor">By Sarah Johnson</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <span class="rating-count">(1,234)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$129.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="course-card">
+                        <div class="course-image"></div>
+                        <div class="course-content">
+                            <h3 class="course-title">UI/UX Design Masterclass</h3>
+                            <p class="course-instructor">By Mike Chen</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐☆</div>
+                                <span class="rating-count">(987)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$99.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="course-card">
+                        <div class="course-image"></div>
+                        <div class="course-content">
+                            <h3 class="course-title">Data Science with Python</h3>
+                            <p class="course-instructor">By Dr. Lisa Wang</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <span class="rating-count">(1,756)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$149.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="course-card">
+                        <div class="course-image"></div>
+                        <div class="course-content">
+                            <h3 class="course-title">Digital Marketing Strategy</h3>
+                            <p class="course-instructor">By Alex Rodriguez</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐☆</div>
+                                <span class="rating-count">(642)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$79.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="course-card">
+                        <div class="course-image"></div>
+                        <div class="course-content">
+                            <h3 class="course-title">Machine Learning Fundamentals</h3>
+                            <p class="course-instructor">By Prof. David Kim</p>
+                            <div class="course-rating">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <span class="rating-count">(2,156)</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-price">$179.99</span>
+                                <button class="btn-enroll">Enroll Now</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Courses Section -->
+        <section class="featured" id="featured">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Courses</h2>
+                    <p class="section-subtitle">Hand-picked courses by our experts</p>
+                </div>
+                
+                <div class="featured-carousel">
+                    <div class="carousel-container">
+                        <article class="featured-card">
+                            <div class="featured-image"></div>
+                            <div class="featured-content">
+                                <h3 class="featured-title">Full-Stack JavaScript</h3>
+                                <p class="featured-description">Master modern web development with this comprehensive course covering React, Node.js, and MongoDB.</p>
+                                <div class="featured-meta">
+                                    <span class="duration">⏱️ 40 hours</span>
+                                    <span class="students">👥 12.5K students</span>
+                                </div>
+                                <div class="featured-price">$199.99</div>
+                            </div>
+                        </article>
+                        
+                        <article class="featured-card">
+                            <div class="featured-image"></div>
+                            <div class="featured-content">
+                                <h3 class="featured-title">AI & Machine Learning</h3>
+                                <p class="featured-description">Dive deep into artificial intelligence and machine learning with practical projects and real-world applications.</p>
+                                <div class="featured-meta">
+                                    <span class="duration">⏱️ 60 hours</span>
+                                    <span class="students">👥 8.2K students</span>
+                                </div>
+                                <div class="featured-price">$299.99</div>
+                            </div>
+                        </article>
+                        
+                        <article class="featured-card">
+                            <div class="featured-image"></div>
+                            <div class="featured-content">
+                                <h3 class="featured-title">Creative Design Suite</h3>
+                                <p class="featured-description">Learn professional design techniques using Adobe Creative Suite for graphics, web, and mobile design.</p>
+                                <div class="featured-meta">
+                                    <span class="duration">⏱️ 35 hours</span>
+                                    <span class="students">👥 6.7K students</span>
+                                </div>
+                                <div class="featured-price">$159.99</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Detail Mockup Section -->
+        <section class="course-detail" id="course-detail">
+            <div class="container">
+                <div class="detail-layout">
+                    <div class="detail-main">
+                        <div class="detail-hero">
+                            <div class="detail-video-placeholder">
+                                <div class="play-button">▶️</div>
+                                <p>Course Preview Video</p>
+                            </div>
+                            <div class="detail-info">
+                                <h1 class="detail-title">Complete Web Development Bootcamp</h1>
+                                <p class="detail-description">
+                                    Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!
+                                </p>
+                                <div class="detail-meta">
+                                    <span class="instructor">👨‍🏫 Created by John Smith</span>
+                                    <span class="updated">📅 Last updated 10/2024</span>
+                                    <span class="language">🌐 English</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Course Syllabus -->
+                        <div class="syllabus">
+                            <h3 class="syllabus-title">Course Content</h3>
+                            <div class="syllabus-sections">
+                                <div class="syllabus-section">
+                                    <h4 class="section-title">📖 Introduction to Web Development</h4>
+                                    <div class="section-lessons">
+                                        <div class="lesson">▶️ What is Web Development? (5:30)</div>
+                                        <div class="lesson">▶️ Setting up Development Environment (12:45)</div>
+                                    </div>
+                                </div>
+                                <div class="syllabus-section">
+                                    <h4 class="section-title">🎨 HTML & CSS Fundamentals</h4>
+                                    <div class="section-lessons">
+                                        <div class="lesson">▶️ HTML Structure and Semantics (15:20)</div>
+                                        <div class="lesson">▶️ CSS Styling and Layout (22:10)</div>
+                                    </div>
+                                </div>
+                                <div class="syllabus-section">
+                                    <h4 class="section-title">⚡ JavaScript Programming</h4>
+                                    <div class="section-lessons">
+                                        <div class="lesson">▶️ JavaScript Basics (18:45)</div>
+                                        <div class="lesson">▶️ DOM Manipulation (25:30)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Student Reviews -->
+                        <div class="reviews">
+                            <h3 class="reviews-title">Student Reviews</h3>
+                            <div class="review-grid">
+                                <div class="review-card">
+                                    <div class="review-header">
+                                        <div class="reviewer-avatar">👩</div>
+                                        <div class="reviewer-info">
+                                            <h4 class="reviewer-name">Emma Thompson</h4>
+                                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                                        </div>
+                                    </div>
+                                    <p class="review-text">"This course completely changed my career. The instructor explains everything clearly and the projects are very practical."</p>
+                                </div>
+                                
+                                <div class="review-card">
+                                    <div class="review-header">
+                                        <div class="reviewer-avatar">👨</div>
+                                        <div class="reviewer-info">
+                                            <h4 class="reviewer-name">Michael Brown</h4>
+                                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                                        </div>
+                                    </div>
+                                    <p class="review-text">"Best investment I've made for my career. Now I'm working as a full-stack developer at a top tech company."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Course Detail Sidebar -->
+                    <aside class="detail-sidebar">
+                        <div class="enrollment-card">
+                            <div class="price-section">
+                                <span class="current-price">$89.99</span>
+                                <span class="original-price">$199.99</span>
+                                <span class="discount-badge">55% off</span>
+                            </div>
+                            
+                            <div class="course-features">
+                                <div class="feature-item">
+                                    <span class="feature-icon">👥</span>
+                                    <span class="feature-text">2,847 students enrolled</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">⏱️</span>
+                                    <span class="feature-text">40 hours total</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📱</span>
+                                    <span class="feature-text">Access on mobile</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">🎓</span>
+                                    <span class="feature-text">Certificate of completion</span>
+                                </div>
+                            </div>
+                            
+                            <button class="btn btn-primary btn-enroll-now">
+                                Enroll Now
+                            </button>
+                            
+                            <div class="offer-countdown">
+                                <div class="countdown-text">⏰ Limited time offer!</div>
+                                <div class="countdown-timer">
+                                    <div class="time-block">
+                                        <span class="time-value">23</span>
+                                        <span class="time-label">Hours</span>
+                                    </div>
+                                    <div class="time-block">
+                                        <span class="time-value">45</span>
+                                        <span class="time-label">Minutes</span>
+                                    </div>
+                                    <div class="time-block">
+                                        <span class="time-value">12</span>
+                                        <span class="time-label">Seconds</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Dashboard Section -->
+        <section class="dashboard" id="dashboard">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Learning Dashboard</h2>
+                    <p class="section-subtitle">Track your progress and continue learning</p>
+                </div>
+                
+                <div class="dashboard-tabs">
+                    <div class="tab-navigation">
+                        <button class="tab-btn active" data-tab="current">Current Courses</button>
+                        <button class="tab-btn" data-tab="completed">Completed</button>
+                        <button class="tab-btn" data-tab="certificates">Certificates</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-panel active" id="current">
+                            <div class="dashboard-grid">
+                                <div class="dashboard-card">
+                                    <div class="course-thumbnail"></div>
+                                    <div class="course-progress-info">
+                                        <h4 class="course-name">Complete Web Development</h4>
+                                        <p class="instructor-name">John Smith</p>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 65%"></div>
+                                        </div>
+                                        <span class="progress-percentage">65% Complete</span>
+                                    </div>
+                                    <button class="btn-continue">Continue Learning</button>
+                                </div>
+                                
+                                <div class="dashboard-card">
+                                    <div class="course-thumbnail"></div>
+                                    <div class="course-progress-info">
+                                        <h4 class="course-name">React Advanced Patterns</h4>
+                                        <p class="instructor-name">Sarah Johnson</p>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 30%"></div>
+                                        </div>
+                                        <span class="progress-percentage">30% Complete</span>
+                                    </div>
+                                    <button class="btn-continue">Continue Learning</button>
+                                </div>
+                                
+                                <div class="dashboard-card">
+                                    <div class="course-thumbnail"></div>
+                                    <div class="course-progress-info">
+                                        <h4 class="course-name">UI/UX Design Masterclass</h4>
+                                        <p class="instructor-name">Mike Chen</p>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 85%"></div>
+                                        </div>
+                                        <span class="progress-percentage">85% Complete</span>
+                                    </div>
+                                    <button class="btn-continue">Continue Learning</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" id="completed">
+                            <div class="dashboard-grid">
+                                <div class="dashboard-card completed">
+                                    <div class="course-thumbnail"></div>
+                                    <div class="course-progress-info">
+                                        <h4 class="course-name">JavaScript Fundamentals</h4>
+                                        <p class="instructor-name">Alex Rodriguez</p>
+                                        <div class="completion-badge">
+                                            ✅ Completed
+                                        </div>
+                                    </div>
+                                    <button class="btn-certificate">View Certificate</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" id="certificates">
+                            <div class="certificates-grid">
+                                <div class="certificate-card">
+                                    <div class="certificate-icon">🎓</div>
+                                    <h4 class="certificate-course">JavaScript Fundamentals</h4>
+                                    <p class="certificate-date">Completed on October 1, 2024</p>
+                                    <button class="btn-download">Download PDF</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Checkout Section -->
+        <section class="checkout" id="checkout">
+            <div class="container">
+                <div class="checkout-layout">
+                    <div class="checkout-main">
+                        <h2 class="checkout-title">Checkout</h2>
+                        
+                        <div class="checkout-steps">
+                            <div class="step active">
+                                <span class="step-number">1</span>
+                                <span class="step-title">Course Selection</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <span class="step-title">Payment Details</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">3</span>
+                                <span class="step-title">Confirmation</span>
+                            </div>
+                        </div>
+                        
+                        <form class="checkout-form">
+                            <fieldset class="billing-section">
+                                <legend>Billing Information</legend>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" id="firstName" name="firstName" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" id="lastName" name="lastName" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </fieldset>
+                            
+                            <fieldset class="payment-section">
+                                <legend>Payment Method</legend>
+                                <div class="payment-options">
+                                    <label class="payment-option">
+                                        <input type="radio" name="payment" value="card" checked>
+                                        <div class="payment-card">
+                                            <span class="payment-icon">💳</span>
+                                            <span class="payment-text">Credit/Debit Card</span>
+                                        </div>
+                                    </label>
+                                    
+                                    <label class="payment-option">
+                                        <input type="radio" name="payment" value="paypal">
+                                        <div class="payment-card">
+                                            <span class="payment-icon">🅿️</span>
+                                            <span class="payment-text">PayPal</span>
+                                        </div>
+                                    </label>
+                                    
+                                    <label class="payment-option">
+                                        <input type="radio" name="payment" value="apple">
+                                        <div class="payment-card">
+                                            <span class="payment-icon">🍎</span>
+                                            <span class="payment-text">Apple Pay</span>
+                                        </div>
+                                    </label>
+                                </div>
+                                
+                                <div class="card-details">
+                                    <div class="form-group">
+                                        <label for="cardNumber">Card Number</label>
+                                        <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456">
+                                    </div>
+                                    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="expiry">Expiry Date</label>
+                                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="cvv">CVV</label>
+                                            <input type="text" id="cvv" name="cvv" placeholder="123">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    
+                    <!-- Checkout Sidebar -->
+                    <aside class="checkout-sidebar">
+                        <div class="order-summary">
+                            <h3 class="summary-title">Order Summary</h3>
+                            
+                            <div class="order-items">
+                                <div class="order-item">
+                                    <div class="item-details">
+                                        <h4 class="item-name">Complete Web Development Bootcamp</h4>
+                                        <p class="item-instructor">by John Smith</p>
+                                    </div>
+                                    <span class="item-price">$89.99</span>
+                                </div>
+                                
+                                <div class="order-item">
+                                    <div class="item-details">
+                                        <h4 class="item-name">React Advanced Patterns</h4>
+                                        <p class="item-instructor">by Sarah Johnson</p>
+                                    </div>
+                                    <span class="item-price">$129.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="order-totals">
+                                <div class="total-row">
+                                    <span class="total-label">Subtotal</span>
+                                    <span class="total-value">$219.98</span>
+                                </div>
+                                <div class="total-row discount">
+                                    <span class="total-label">Discount</span>
+                                    <span class="total-value">-$50.00</span>
+                                </div>
+                                <div class="total-row final">
+                                    <span class="total-label">Total</span>
+                                    <span class="total-value">$169.98</span>
+                                </div>
+                            </div>
+                            
+                            <button class="btn btn-primary btn-complete-purchase">
+                                Complete Purchase
+                            </button>
+                            
+                            <div class="trust-indicators">
+                                <div class="trust-badge">
+                                    <span class="trust-icon">🛡️</span>
+                                    <span class="trust-text">Secure Payment</span>
+                                </div>
+                                <div class="trust-badge">
+                                    <span class="trust-icon">↩️</span>
+                                    <span class="trust-text">30-Day Money Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section brand-section">
+                    <h3 class="footer-logo">STRIKE</h3>
+                    <p class="footer-description">
+                        Empowering learners worldwide with cutting-edge online courses from industry experts.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            📘
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            🐦
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            📷
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            💼
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            📺
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Courses</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Web Development</a></li>
+                        <li><a href="#" class="footer-link">Data Science</a></li>
+                        <li><a href="#" class="footer-link">Mobile Development</a></li>
+                        <li><a href="#" class="footer-link">Design</a></li>
+                        <li><a href="#" class="footer-link">Business</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Help Center</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">Community</a></li>
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Refund Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
+                        <li><a href="#" class="footer-link">Partners</a></li>
+                        <li><a href="#" class="footer-link">Affiliate Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section newsletter-section">
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p class="newsletter-description">Subscribe to our newsletter for the latest courses and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+                            ➤
+                        </button>
+                    </form>
+                    
+                    <div class="trust-metrics">
+                        <div class="metric">
+                            <span class="metric-icon">⭐</span>
+                            <span class="metric-text">4.8/5 Rating</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon">👥</span>
+                            <span class="metric-text">50K+ Students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2024 STRIKE. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#" class="legal-link">Privacy Policy</a>
+                        <a href="#" class="legal-link">Terms of Service</a>
+                        <a href="#" class="legal-link">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
