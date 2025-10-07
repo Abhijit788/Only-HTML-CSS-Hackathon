@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Full Stack Developer Course - STRIKE</title>
+    <meta
+      name="description"
+      content="Master full stack development from frontend to backend with hands-on projects, modern frameworks, and real-world applications."
+    />
+
+    <!-- Base styles and CSS variables -->
+    <link rel="stylesheet" href="css/base.css" />
+
+    <!-- Component styles -->
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- Course detail specific styles -->
+    <link rel="stylesheet" href="css/course-detail.css" />
+
+    <!-- Main utilities and layout -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+      <nav class="nav-container">
+        <div class="nav-brand">
+          <a href="landingpage.html"
+            ><img src="logo.png" alt="STRIKE" class="logo-image"
+          /></a>
+        </div>
+
+        <!-- Hidden checkbox for mobile menu toggle -->
+        <input
+          type="checkbox"
+          id="mobile-menu-toggle"
+          class="mobile-menu-checkbox"
+        />
+
+        <div class="nav-menu" id="navMenu">
+          <a href="landingpage.html" class="nav-link">Home</a>
+          <a href="landingpage.html" class="nav-link">Courses</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <div class="nav-actions-mobile">
+            <a href="#login" class="btn-outline">Login</a>
+            <a href="#signup" class="btn-primary">Sign Up</a>
+          </div>
+        </div>
+
+        <div class="nav-actions">
+          <a href="#login" class="btn-outline">Login</a>
+          <a href="#signup" class="btn-primary">Sign Up</a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <label
+          for="mobile-menu-toggle"
+          class="mobile-toggle"
+          aria-label="Toggle Menu"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </label>
+      </nav>
+
+      <!-- Mobile Menu Overlay -->
+      <label for="mobile-menu-toggle" class="mobile-overlay"></label>
+    </header>
+
+    <!-- Course Hero Section -->
+    <section class="course-hero">
+      <div class="course-hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+          alt="Full Stack Developer Course"
+          class="course-hero-image"
+        />
+        <div class="course-hero-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="course-hero-content">
+          <div class="course-breadcrumb">
+            <a href="landingpage.html">Home</a>
+            <span>/</span>
+            <a href="#courses">Courses</a>
+            <span>/</span>
+            <span>Full Stack Developer</span>
+          </div>
+
+          <div class="course-hero-badge">
+            <span class="badge-featured">★ Featured Course</span>
+            <span class="badge-level">Intermediate</span>
+          </div>
+
+          <h1 class="course-hero-title">
+            Complete Full Stack Developer Course
+          </h1>
+          <p class="course-hero-subtitle">
+            Master modern full stack development from fundamentals to advanced
+            patterns with hands-on projects and real-world applications
+          </p>
+
+          <div class="course-hero-meta">
+            <div class="meta-item">
+              <span class="meta-icon">👨‍💻</span>
+              <span>15,847 students</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">⭐</span>
+              <span>4.8 (2,341 reviews)</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">🕒</span>
+              <span>42 hours</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">📱</span>
+              <span>Mobile & Desktop</span>
+            </div>
+          </div>
+
+          <div class="course-hero-actions">
+            <button class="btn-hero-primary">Enroll Now - $89.99</button>
+            <button class="btn-hero-secondary">Preview Course</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Course Content -->
+    <main class="course-main">
+      <div class="container">
+        <div class="course-layout">
+          <!-- Course Content Area -->
+          <div class="course-content">
+            <!-- Course Overview -->
+            <section class="course-section">
+              <h2 class="section-title">Course Overview</h2>
+              <div class="course-overview">
+                <div class="overview-description">
+                  <p>
+                    Transform your career with the most comprehensive Full Stack
+                    course available. This course takes you from complete
+                    beginner to advanced Full Stack developer, covering
+                    everything from frontend frameworks to backend APIs and
+                    databases.
+                  </p>
+
+                  <p>
+                    You'll build 5 real-world projects including a movie
+                    database app, e-commerce platform, social media dashboard,
+                    and a full-stack MERN application. By the end, you'll have
+                    the confidence and skills to build any full stack
+                    application.
+                  </p>
+
+                  <h3>What You'll Learn</h3>
+                  <div class="learning-outcomes">
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Master frontend fundamentals including HTML, CSS,
+                        JavaScript, and React</span
+                      >
+                    </div>
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Build responsive UIs with modern frameworks and state
+                        management</span
+                      >
+                    </div>
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Develop backend APIs with Node.js, Express, and
+                        databases</span
+                      >
+                    </div>
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Work with APIs, async operations, and data
+                        fetching</span
+                      >
+                    </div>
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Deploy applications to production with modern
+                        tools</span
+                      >
+                    </div>
+                    <div class="outcome-item">
+                      <span class="outcome-icon">✅</span>
+                      <span
+                        >Understand testing strategies and best practices</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="overview-highlights">
+                  <div class="highlight-card">
+                    <h4>🎯 Project-Based Learning</h4>
+                    <p>Build 5 complete projects from scratch</p>
+                  </div>
+                  <div class="highlight-card">
+                    <h4>📚 Comprehensive Content</h4>
+                    <p>42 hours of HD video content</p>
+                  </div>
+                  <div class="highlight-card">
+                    <h4>💡 Modern Techniques</h4>
+                    <p>Latest full stack technologies and patterns</p>
+                  </div>
+                  <div class="highlight-card">
+                    <h4>🏆 Career Support</h4>
+                    <p>Resume review and interview prep</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Course Syllabus -->
+            <section class="course-section">
+              <h2 class="section-title">Course Syllabus</h2>
+              <div class="syllabus-accordion">
+                <!-- Module 1 -->
+                <div class="accordion-item">
+                  <input
+                    type="checkbox"
+                    id="module-1"
+                    class="accordion-checkbox"
+                  />
+                  <label for="module-1" class="accordion-header">
+                    <div class="accordion-title">
+                      <h3>Module 1: Frontend Fundamentals</h3>
+                      <span class="accordion-meta">8 lessons • 3h 20m</span>
+                    </div>
+                    <span class="accordion-arrow">▼</span>
+                  </label>
+                  <div class="accordion-content">
+                    <div class="lesson-list">
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Introduction to Full Stack Development</h4>
+                          <span class="lesson-duration">15:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Setting up Development Environment</h4>
+                          <span class="lesson-duration">22:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>HTML, CSS & JavaScript Basics</h4>
+                          <span class="lesson-duration">28:45</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Version Control with Git</h4>
+                          <span class="lesson-duration">25:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>CSS Flexbox and Grid</h4>
+                          <span class="lesson-duration">32:20</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>JavaScript DOM Manipulation</h4>
+                          <span class="lesson-duration">35:40</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">📚</span>
+                        <div class="lesson-info">
+                          <h4>Reading: Web Development Best Practices</h4>
+                          <span class="lesson-duration">20 min</span>
+                        </div>
+                        <span class="lesson-type">Reading</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">📝</span>
+                        <div class="lesson-info">
+                          <h4>Practice: Building a Landing Page</h4>
+                          <span class="lesson-duration">30 min</span>
+                        </div>
+                        <span class="lesson-type">Exercise</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="accordion-item">
+                  <input
+                    type="checkbox"
+                    id="module-2"
+                    class="accordion-checkbox"
+                  />
+                  <label for="module-2" class="accordion-header">
+                    <div class="accordion-title">
+                      <h3>Module 2: React Components & UI Development</h3>
+                      <span class="accordion-meta">10 lessons • 4h 45m</span>
+                    </div>
+                    <span class="accordion-arrow">▼</span>
+                  </label>
+                  <div class="accordion-content">
+                    <div class="lesson-list">
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>React Components & Props</h4>
+                          <span class="lesson-duration">18:20</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Building Responsive UIs</h4>
+                          <span class="lesson-duration">25:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>JSX Syntax and Best Practices</h4>
+                          <span class="lesson-duration">22:40</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Component Composition Patterns</h4>
+                          <span class="lesson-duration">28:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>CSS-in-JS and Styled Components</h4>
+                          <span class="lesson-duration">24:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>React Router and Navigation</h4>
+                          <span class="lesson-duration">32:45</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Forms and User Input</h4>
+                          <span class="lesson-duration">26:50</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Performance Optimization</h4>
+                          <span class="lesson-duration">30:25</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">📝</span>
+                        <div class="lesson-info">
+                          <h4>Practice: Building a Todo App</h4>
+                          <span class="lesson-duration">45 min</span>
+                        </div>
+                        <span class="lesson-type">Exercise</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🧪</span>
+                        <div class="lesson-info">
+                          <h4>Quiz: React Components Mastery</h4>
+                          <span class="lesson-duration">20 min</span>
+                        </div>
+                        <span class="lesson-type">Quiz</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="accordion-item">
+                  <input
+                    type="checkbox"
+                    id="module-3"
+                    class="accordion-checkbox"
+                  />
+                  <label for="module-3" class="accordion-header">
+                    <div class="accordion-title">
+                      <h3>Module 3: Frontend State Management</h3>
+                      <span class="accordion-meta">10 lessons • 5h 30m</span>
+                    </div>
+                    <span class="accordion-arrow">▼</span>
+                  </label>
+                  <div class="accordion-content">
+                    <div class="lesson-list">
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>State Management with React</h4>
+                          <span class="lesson-duration">20:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Event Handling in JavaScript</h4>
+                          <span class="lesson-duration">32:40</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>useState Hook Deep Dive</h4>
+                          <span class="lesson-duration">28:20</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>useEffect and Side Effects</h4>
+                          <span class="lesson-duration">35:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>useReducer for Complex State</h4>
+                          <span class="lesson-duration">26:45</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Context API for Global State</h4>
+                          <span class="lesson-duration">30:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Custom Hooks Creation</h4>
+                          <span class="lesson-duration">24:50</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>State Management Libraries (Redux)</h4>
+                          <span class="lesson-duration">38:25</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>State Management Best Practices</h4>
+                          <span class="lesson-duration">22:35</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">📝</span>
+                        <div class="lesson-info">
+                          <h4>Practice: Shopping Cart with State</h4>
+                          <span class="lesson-duration">60 min</span>
+                        </div>
+                        <span class="lesson-type">Exercise</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🧪</span>
+                        <div class="lesson-info">
+                          <h4>Quiz: State Management Mastery</h4>
+                          <span class="lesson-duration">25 min</span>
+                        </div>
+                        <span class="lesson-type">Quiz</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="accordion-item">
+                  <input
+                    type="checkbox"
+                    id="module-4"
+                    class="accordion-checkbox"
+                  />
+                  <label for="module-4" class="accordion-header">
+                    <div class="accordion-title">
+                      <h3>Module 4: Backend Development</h3>
+                      <span class="accordion-meta">10 lessons • 6h 15m</span>
+                    </div>
+                    <span class="accordion-arrow">▼</span>
+                  </label>
+                  <div class="accordion-content">
+                    <div class="lesson-list">
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Node.js & Express Setup</h4>
+                          <span class="lesson-duration">35:20</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Building REST APIs</h4>
+                          <span class="lesson-duration">42:15</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Database Integration with MongoDB</h4>
+                          <span class="lesson-duration">38:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Authentication & Authorization</h4>
+                          <span class="lesson-duration">45:10</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Middleware and Error Handling</h4>
+                          <span class="lesson-duration">28:45</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>JWT Token Implementation</h4>
+                          <span class="lesson-duration">32:20</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>API Testing with Postman</h4>
+                          <span class="lesson-duration">22:30</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">▶️</span>
+                        <div class="lesson-info">
+                          <h4>Database Relationships and Queries</h4>
+                          <span class="lesson-duration">36:25</span>
+                        </div>
+                        <span class="lesson-type">Video</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">📝</span>
+                        <div class="lesson-info">
+                          <h4>Practice: Building a Blog API</h4>
+                          <span class="lesson-duration">75 min</span>
+                        </div>
+                        <span class="lesson-type">Exercise</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🧪</span>
+                        <div class="lesson-info">
+                          <h4>Quiz: Backend Development Mastery</h4>
+                          <span class="lesson-duration">30 min</span>
+                        </div>
+                        <span class="lesson-type">Quiz</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="accordion-item">
+                  <input
+                    type="checkbox"
+                    id="module-5"
+                    class="accordion-checkbox"
+                  />
+                  <label for="module-5" class="accordion-header">
+                    <div class="accordion-title">
+                      <h3>
+                        Module 5: Final Project - Full Stack E-commerce App
+                      </h3>
+                      <span class="accordion-meta">10 lessons • 8h 30m</span>
+                    </div>
+                    <span class="accordion-arrow">▼</span>
+                  </label>
+                  <div class="accordion-content">
+                    <div class="lesson-list">
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Full Stack Project Setup and Architecture</h4>
+                          <span class="lesson-duration">45:20</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Database Design and Models</h4>
+                          <span class="lesson-duration">38:15</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Backend API Development</h4>
+                          <span class="lesson-duration">52:40</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>User Authentication System</h4>
+                          <span class="lesson-duration">41:30</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Product Catalog and Shopping Cart</h4>
+                          <span class="lesson-duration">65:25</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Payment Integration</h4>
+                          <span class="lesson-duration">48:50</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Admin Dashboard Creation</h4>
+                          <span class="lesson-duration">55:35</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Testing and Bug Fixes</h4>
+                          <span class="lesson-duration">32:45</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🚀</span>
+                        <div class="lesson-info">
+                          <h4>Deployment and Production Setup</h4>
+                          <span class="lesson-duration">42:20</span>
+                        </div>
+                        <span class="lesson-type">Project</span>
+                      </div>
+                      <div class="lesson-item">
+                        <span class="lesson-icon">🏆</span>
+                        <div class="lesson-info">
+                          <h4>Project Presentation and Portfolio</h4>
+                          <span class="lesson-duration">25:50</span>
+                        </div>
+                        <span class="lesson-type">Presentation</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Instructor Bio -->
+            <section class="course-section">
+              <h2 class="section-title">Meet Your Instructor</h2>
+              <div class="instructor-bio">
+                <div class="instructor-card">
+                  <div class="instructor-avatar">
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                      alt="Alex Johnson"
+                    />
+                  </div>
+                  <div class="instructor-info">
+                    <h3>Alex Johnson</h3>
+                    <p class="instructor-title">
+                      Senior Full Stack Developer & Technical Lead
+                    </p>
+                    <div class="instructor-stats">
+                      <div class="stat-item">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Students Taught</span>
+                      </div>
+                      <div class="stat-item">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years Experience</span>
+                      </div>
+                      <div class="stat-item">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label">Instructor Rating</span>
+                      </div>
+                    </div>
+                    <div class="instructor-description">
+                      <p>
+                        Alex is a passionate Full Stack developer with over 8
+                        years of experience building scalable web applications.
+                        He has worked with companies like Netflix, Airbnb, and
+                        Spotify, leading development teams and mentoring junior
+                        developers.
+                      </p>
+                      <p>
+                        His teaching style focuses on practical, real-world
+                        examples that help students understand not just the
+                        "how" but also the "why" behind full stack development
+                        patterns.
+                      </p>
+                    </div>
+                    <div class="instructor-credentials">
+                      <span class="credential"
+                        >🏆 Full Stack Certified Developer</span
+                      >
+                      <span class="credential">📚 Published Author</span>
+                      <span class="credential">🎤 Conference Speaker</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Student Testimonials -->
+            <section class="course-section">
+              <h2 class="section-title">What Students Say</h2>
+              <div class="testimonials">
+                <div class="testimonial-card">
+                  <div class="testimonial-header">
+                    <div class="student-avatar">
+                      <img
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop&auto=format"
+                        alt="Sarah Chen"
+                      />
+                    </div>
+                    <div class="student-info">
+                      <h4>Sarah Chen</h4>
+                      <p>Frontend Developer at Google</p>
+                      <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                      </div>
+                    </div>
+                  </div>
+                  <blockquote class="testimonial-content">
+                    "This course completely transformed my understanding of
+                    React. Alex's teaching style is incredible - he explains
+                    complex concepts in simple terms and the projects are
+                    exactly what you'd build in real companies. I got hired at
+                    Google 3 months after completing this course!"
+                  </blockquote>
+                  <div class="testimonial-date">
+                    <span>2 months ago</span>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="testimonial-header">
+                    <div class="student-avatar">
+                      <img
+                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                        alt="Mike Rodriguez"
+                      />
+                    </div>
+                    <div class="student-info">
+                      <h4>Mike Rodriguez</h4>
+                      <p>Full Stack Developer</p>
+                      <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                      </div>
+                    </div>
+                  </div>
+                  <blockquote class="testimonial-content">
+                    "As someone who was completely new to React, this course was
+                    perfect. The step-by-step approach and hands-on projects
+                    helped me build confidence. The final e-commerce project is
+                    now the centerpiece of my portfolio!"
+                  </blockquote>
+                  <div class="testimonial-date">
+                    <span>1 month ago</span>
+                  </div>
+                </div>
+
+                <div class="testimonial-card">
+                  <div class="testimonial-header">
+                    <div class="student-avatar">
+                      <img
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                        alt="Emma Wilson"
+                      />
+                    </div>
+                    <div class="student-info">
+                      <h4>Emma Wilson</h4>
+                      <p>Software Engineer at Microsoft</p>
+                      <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                      </div>
+                    </div>
+                  </div>
+                  <blockquote class="testimonial-content">
+                    "The best React course I've taken! Alex covers everything
+                    from basics to advanced patterns. The content is always
+                    up-to-date with the latest React features. Highly recommend
+                    to anyone serious about React development."
+                  </blockquote>
+                  <div class="testimonial-date">
+                    <span>3 weeks ago</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Sticky Sidebar -->
+          <aside class="course-sidebar">
+            <div class="sidebar-sticky">
+              <!-- Course Preview -->
+              <div class="course-preview">
+                <div class="preview-video">
+                  <img
+                    src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                    alt="Course Preview"
+                  />
+                  <button class="play-button">
+                    <span>▶️</span>
+                    <span>Preview Course</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Pricing Card -->
+              <div class="pricing-card">
+                <div class="price-header">
+                  <div class="current-price">$89.99</div>
+                  <div class="original-price">$199.99</div>
+                  <div class="discount-badge">55% OFF</div>
+                </div>
+
+                <div class="price-timer">
+                  <span class="timer-text">⏰ Sale ends in:</span>
+                  <div class="countdown">
+                    <span class="time-unit">
+                      <span class="time-number">02</span>
+                      <span class="time-label">Days</span>
+                    </span>
+                    <span class="time-separator">:</span>
+                    <span class="time-unit">
+                      <span class="time-number">14</span>
+                      <span class="time-label">Hours</span>
+                    </span>
+                    <span class="time-separator">:</span>
+                    <span class="time-unit">
+                      <span class="time-number">32</span>
+                      <span class="time-label">Minutes</span>
+                    </span>
+                  </div>
+                </div>
+
+                <button class="enroll-button">
+                  <span>🚀 Enroll Now</span>
+                </button>
+
+                <div class="guarantee">
+                  <span class="guarantee-icon">💯</span>
+                  <span>30-day money-back guarantee</span>
+                </div>
+              </div>
+
+              <!-- Course Features -->
+              <div class="course-features-sidebar">
+                <h3>This course includes:</h3>
+                <ul class="features-list">
+                  <li class="feature-item">
+                    <span class="feature-icon">🎥</span>
+                    <span>42 hours on-demand video</span>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">📱</span>
+                    <span>Access on mobile and TV</span>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">♾️</span>
+                    <span>Full lifetime access</span>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">🏆</span>
+                    <span
+                      data-tooltip="Downloadable certificate upon completion"
+                      >Certificate of completion</span
+                    >
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">📁</span>
+                    <span>5 downloadable resources</span>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">💬</span>
+                    <span>Direct instructor support</span>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-icon">👥</span>
+                    <span>Community access</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Share Course -->
+              <div class="share-course">
+                <h3>Share this course</h3>
+                <div class="share-buttons">
+                  <button class="share-btn twitter">🐦 Twitter</button>
+                  <button class="share-btn facebook">📘 Facebook</button>
+                  <button class="share-btn linkedin">💼 LinkedIn</button>
+                  <button class="share-btn copy">📋 Copy Link</button>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-brand">
+              <a href="landingpage.html" class="footer-logo">
+                <img src="logo.png" alt="STRIKE Logo" />
+                <span class="footer-logo-text">STRIKE</span>
+              </a>
+              <p class="footer-description">
+                Empowering learners worldwide with cutting-edge online courses
+                from industry experts. Transform your career with our premium
+                educational content.
+              </p>
+              <div class="footer-social">
+                <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+              </div>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Courses</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Web Development</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Data Science</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Mobile Development</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">UI/UX Design</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">DevOps & Cloud</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Company</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="about.html" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Careers</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Press</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="contact.html" class="footer-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Support</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Help Center</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Student Support</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Community Forum</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Accessibility</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-content">
+            <p class="footer-copyright">
+              © 2024 STRIKE Education Platform. All rights reserved.
+            </p>
+            <ul class="footer-legal">
+              <li><a href="#" class="footer-legal-link">Privacy Policy</a></li>
+              <li>
+                <a href="#" class="footer-legal-link">Terms of Service</a>
+              </li>
+              <li><a href="#" class="footer-legal-link">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="back-to-top"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        aria-label="Back to top"
+      >
+        ↑
+      </button>
+    </footer>
+  </body>
+</html>

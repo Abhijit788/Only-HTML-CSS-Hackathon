@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Strike</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about-contact.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="nav-brand">
+          <img src="logo.png" alt="Strike Logo" class="logo-image" />
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="landingpage.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <a href="#" class="btn-outline">Login</a>
+          <a href="#" class="btn-primary">Sign Up</a>
+        </div>
+
+        <div class="nav-actions-mobile">
+          <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="mobile-menu-buttons">
+            <a href="#" class="btn-outline">Login</a>
+            <a href="#" class="btn-primary">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="contact-hero-content">
+          <h1 class="contact-hero-title">Get in Touch</h1>
+          <p class="contact-hero-subtitle">
+            Have questions or need support? We'd love to hear from you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Main Content -->
+    <main class="contact-main">
+      <div class="container">
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 class="section-title">Let's Start a Conversation</h2>
+              <p class="section-text">
+                Whether you're a student looking for guidance, an instructor
+                interested in teaching, or a business seeking corporate training
+                solutions, we're here to help.
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="method-icon">📧</div>
+                  <div class="method-details">
+                    <h3 class="method-title">Email Us</h3>
+                    <p class="method-text">support@strike.com</p>
+                    <p class="method-description">
+                      We typically respond within 24 hours
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">📞</div>
+                  <div class="method-details">
+                    <h3 class="method-title">Call Us</h3>
+                    <p class="method-text">+1 (555) 123-4567</p>
+                    <p class="method-description">Mon-Fri, 9 AM - 6 PM EST</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">💬</div>
+                  <div class="method-details">
+                    <h3 class="method-title">Live Chat</h3>
+                    <p class="method-text">Available on our platform</p>
+                    <p class="method-description">
+                      Real-time support for enrolled students
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon">📍</div>
+                  <div class="method-details">
+                    <h3 class="method-title">Visit Us</h3>
+                    <p class="method-text">
+                      123 Education Street<br />Tech City, TC 12345
+                    </p>
+                    <p class="method-description">
+                      Office hours: Mon-Fri, 9 AM - 5 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-container">
+              <form class="contact-form">
+                <h3 class="form-title">Send us a message</h3>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      class="form-input"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      class="form-input"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <select
+                    id="subject"
+                    name="subject"
+                    class="form-select"
+                    required
+                  >
+                    <option value="">Choose a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Technical Support</option>
+                    <option value="courses">Course Information</option>
+                    <option value="partnership">
+                      Partnership Opportunities
+                    </option>
+                    <option value="feedback">Feedback</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    rows="5"
+                    placeholder="Tell us how we can help you..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+          <h2 class="section-title center">Frequently Asked Questions</h2>
+          <div class="faq-container">
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>How do I enroll in a course?</h3>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Simply browse our course catalog, select the course you're
+                  interested in, and click "Enroll Now". You'll be guided
+                  through the registration process.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>What payment methods do you accept?</h3>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We accept all major credit cards, PayPal, and bank transfers.
+                  Payment plans are also available for selected courses.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I get a refund if I'm not satisfied?</h3>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Yes! We offer a 30-day money-back guarantee for all our
+                  courses. If you're not satisfied, contact our support team for
+                  a full refund.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Do you offer certificates upon completion?</h3>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Yes, all our courses include a certificate of completion that
+                  you can add to your LinkedIn profile or resume.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div class="faq-question">
+                <h3>Can I access courses on mobile devices?</h3>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Absolutely! Our platform is fully responsive and works on all
+                  devices. We also have mobile apps for iOS and Android.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-brand">
+              <a href="landingpage.html" class="footer-logo">
+                <img src="logo.png" alt="STRIKE Logo" />
+                <span class="footer-logo-text">STRIKE</span>
+              </a>
+              <p class="footer-description">
+                Empowering learners worldwide with cutting-edge online courses
+                from industry experts. Transform your career with our premium
+                educational content.
+              </p>
+              <div class="footer-social">
+                <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                <a href="#" class="social-link" aria-label="Instagram">�</a>
+                <a href="#" class="social-link" aria-label="LinkedIn">�</a>
+              </div>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Courses</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Web Development</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Data Science</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Mobile Development</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">UI/UX Design</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">DevOps & Cloud</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Company</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="about.html" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Careers</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Press</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="contact.html" class="footer-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3 class="footer-column-title">Support</h3>
+              <ul class="footer-links">
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Help Center</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Student Support</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Community Forum</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li class="footer-link-item">
+                  <a href="#" class="footer-link">Accessibility</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-content">
+            <p class="footer-copyright">
+              © 2024 STRIKE Education Platform. All rights reserved.
+            </p>
+            <ul class="footer-legal">
+              <li><a href="#" class="footer-legal-link">Privacy Policy</a></li>
+              <li>
+                <a href="#" class="footer-legal-link">Terms of Service</a>
+              </li>
+              <li><a href="#" class="footer-legal-link">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="back-to-top"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        aria-label="Back to top"
+      >
+        ↑
+      </button>
+    </footer>
+  </body>
+</html>
