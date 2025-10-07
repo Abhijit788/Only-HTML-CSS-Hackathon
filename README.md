@@ -129,7 +129,7 @@
 
 ```
 htmlonly/
-├── 📄 landingpage.html          # Main homepage
+├── 📄 index.html                # Main homepage
 ├── 📄 about.html                # About page
 ├── 📄 contact.html              # Contact page
 ├── 📄 course-detail.html        # Full-Stack course details
@@ -234,7 +234,7 @@ This project demonstrates that **creativity and functionality** can be achieved 
 
 ## 🚀 Live Demo
 
-Open `landingpage.html` in any modern web browser to experience the full website functionality.
+Open `index.html` in any modern web browser to experience the full website functionality.
 
 ## 🏆 Project Achievements
 
