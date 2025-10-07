@@ -274,10 +274,52 @@
 }
 
 .free-cta-btn:hover {
-  background: rgba(34, 197, 94, 0.1);
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
   border-color: #22c55e;
+  color: #ffffff;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(34, 197, 94, 0.2);
+}
+
+/* Dedicated button class for View All Free Courses */
+.btn-view-free-course {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-2xl);
+  border: 2px solid rgba(34, 197, 94, 0.5);
+  background: transparent;
+  color: #22c55e;
+  border-radius: var(--border-radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-view-free-course::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.btn-view-free-course:hover {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  border-color: #22c55e;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(34, 197, 94, 0.4);
+}
+
+.btn-view-free-course:hover::before {
+  left: 100%;
 }
 
 /* Animations */
