@@ -26,41 +26,6 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Enhanced smooth scrolling for all elements */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* Offset for fixed header */
-}
-
-/* Smooth scrolling for all scrollable elements */
-* {
-  scroll-behavior: smooth;
-}
-
-/* Enhanced scroll animations */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  /* Smooth transitions for scroll-triggered animations */
-  .scroll-fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  }
-  
-  .scroll-fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  /* Smooth page transitions */
-  body {
-    transition: all 0.3s ease-in-out;
-  }
-}
-
 /* Set core body defaults */
 body {
   min-height: 100vh;
